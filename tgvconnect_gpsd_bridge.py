@@ -8,6 +8,10 @@ TCP_IP = ''
 TCP_PORT = 5005
 BUFFER_SIZE = 1024  # Normally 1024, but we want fast response
 
+#  run this script
+#  start "gpsd -N tcp://localhost:5005"
+#  connect with any gpsd client such as cgps
+#  /!\ work in progress
 
 def get_gps_data():
   
